@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_texts",
+  "info": {
+    "name": "Text",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "css": {
+      "type": "component",
+      "repeatable": false,
+      "component": "core.css-wrapper"
+    }
+  }
+}

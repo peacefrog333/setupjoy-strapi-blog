@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_elements_rankings",
+  "info": {
+    "name": "Ranking",
+    "icon": "list-ol"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ranking": {
+      "type": "integer"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "core.app-link"
+    }
+  }
+}

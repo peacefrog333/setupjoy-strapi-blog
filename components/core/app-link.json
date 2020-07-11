@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_core_app_links",
+  "info": {
+    "name": "App Link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

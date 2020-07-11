@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_core_css_wrappers",
+  "info": {
+    "name": "Css Wrapper",
+    "icon": "highlighter"
+  },
+  "options": {},
+  "attributes": {
+    "classes": {
+      "type": "string"
+    },
+    "styles": {
+      "type": "string"
+    }
+  }
+}

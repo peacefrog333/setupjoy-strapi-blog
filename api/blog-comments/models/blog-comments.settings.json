@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_comments",
+  "info": {
+    "name": "Blog Comments"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "subject": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "blog": {
+      "model": "blog",
+      "via": "blog_comments"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "blog_comments"
+    }
+  }
+}

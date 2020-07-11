@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "name": "Blog"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "ready",
+        "published"
+      ],
+      "default": "draft"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.seo"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "elements.image",
+        "elements.ranking",
+        "elements.text"
+      ]
+    },
+    "blog_comments": {
+      "via": "blog",
+      "collection": "blog-comments"
+    }
+  }
+}
