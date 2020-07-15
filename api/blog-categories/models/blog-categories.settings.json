@@ -25,6 +25,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "blogs": {
+      "via": "blog_categories",
+      "collection": "blog"
     }
   }
 }

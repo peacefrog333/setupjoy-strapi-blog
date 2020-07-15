@@ -39,8 +39,27 @@
       ]
     },
     "blog_comments": {
-      "via": "blog",
-      "collection": "blog-comments"
+      "collection": "blog-comments",
+      "via": "blog"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "blog_categories": {
+      "collection": "blog-categories",
+      "via": "blogs",
+      "dominant": true
     }
   }
 }

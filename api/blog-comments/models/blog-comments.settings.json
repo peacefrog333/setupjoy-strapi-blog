@@ -16,8 +16,8 @@
       "type": "text"
     },
     "blog": {
-      "model": "blog",
-      "via": "blog_comments"
+      "via": "blog_comments",
+      "model": "blog"
     },
     "user": {
       "plugin": "users-permissions",
