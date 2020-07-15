@@ -28,7 +28,8 @@
     },
     "blogs": {
       "via": "blog_categories",
-      "collection": "blog"
+      "collection": "blog",
+      "autoPopulate": false
     }
   }
 }
