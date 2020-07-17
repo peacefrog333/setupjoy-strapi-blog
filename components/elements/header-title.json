@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_header_titles",
+  "info": {
+    "name": "HeaderTitle",
+    "icon": "font"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    }
+  }
+}

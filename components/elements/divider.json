@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_dividers",
+  "info": {
+    "name": "divider",
+    "icon": "ellipsis-h"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    }
+  }
+}

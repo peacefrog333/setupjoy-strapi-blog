@@ -35,7 +35,10 @@
       "components": [
         "elements.image",
         "elements.ranking",
-        "elements.text"
+        "elements.text",
+        "elements.header-title",
+        "elements.divider",
+        "elements.embed"
       ]
     },
     "blog_comments": {

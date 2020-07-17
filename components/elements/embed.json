@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_embeds",
+  "info": {
+    "name": "Embed",
+    "icon": "globe"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    }
+  }
+}
